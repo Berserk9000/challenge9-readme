@@ -56,11 +56,22 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-
+async function writeToFile(fileName, data) {
+    await writeFileAsync(fileName, data); 
+    console.log('Success');
+}
 
 // TODO: Create a function to initialize app
-
+async function init() {
+    try{
+        const answers = await inquirer.prompt(questions);
+        const generateData = generateReadme(answers);
+        await writeToFile('./utils/README.md', generateData);
+    }catch(err) {
+        console.log(err);
+    }
     
+}
 
 // Function call to initialize app
 init();
