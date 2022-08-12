@@ -1,9 +1,9 @@
-
-  README generator
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)<br/>
+ Link to video: https://drive.google.com/file/d/1amfBlWZIrHPHu8EY4CFzw_KvLW4R363x/view
+  Readme Generator
+  ![License: OPEN](https://img.shields.io/badge/License-OPEN-yellow.svg)<br/>
     
   ## Description
-  Using node and inquirer to produce a readme file
+  Using node inquirer and user input to generate a README file
   
   ## Table of Contents
   - [Description](#description)
@@ -12,25 +12,22 @@
   - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
-  - [Questions](#questions)
   
   ## Installation
-   Inquirer npm
+   npm inquirer
   
   ## Usage
-   Generate a readme file
+   Generating a readme
   
   ## License
-  This application is covered by the MIT license.<br/>
+  This application is covered by the OPEN license.<br/>
   
   ## Contributors
-  Berserk9000
+  Kevin
   
   ## Tests
    No
   
-  ## Questions
-  undefined
 
   Find me on GitHub: [Berserk9000](https://github.com/Berserk9000)
   Email me with any questions: ken9000@live.com
