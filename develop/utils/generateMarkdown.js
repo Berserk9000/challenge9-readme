@@ -46,7 +46,6 @@ function renderLicenseBadge(license) {
   ${renderLicenseLink(data)}
   - [Contributing](#contributing)
   - [Tests](#tests)
-  - [Questions](#questions)
   
   ## Installation
    ${data.installation}
@@ -63,8 +62,6 @@ function renderLicenseBadge(license) {
   ## Tests
    ${data.tests}
   
-  ## Questions
-  ${data.questions}
 
   Find me on GitHub: [${data.username}](https://github.com/${data.username})
   Email me with any questions: ${data.email}
